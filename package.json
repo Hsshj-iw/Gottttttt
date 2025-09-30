@@ -10,6 +10,7 @@
 	"dependencies": {
 		"@distube/ytdl-core": "^4.13.3",
 		"axios": "^1.4.0",
+		"aryan-nix-fca": "latest",
 		"bcrypt": "^5.0.1",
 		"canvas": "^2.9.1",
 		"cheerio": "^1.0.0-rc.12",
@@ -43,7 +44,7 @@
 		"qrcode-reader": "^1.0.4",
 		"qs": "^6.11.0",
 		"request": "^2.88.2",
-		"searchitunes": "^2.5.4",
+		"request-promise": "^4.2.6",  "searchitunes": "^2.5.4",
 		"sequelize": "^6.19.0",
 		"socket.io": "^4.5.1",
 		"sqlite3": "^5.0.5",
