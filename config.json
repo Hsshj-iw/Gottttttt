@@ -44,7 +44,7 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "approval": true,
+  "approval": false,
   "reactBy": {
     "delete": [
       "😠",
