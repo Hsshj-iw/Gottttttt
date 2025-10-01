@@ -131,6 +131,21 @@
       "note": "Can send notifications to many webhookUrl, separate by comma or space, example: \"https://discord.com/api/webhooks/123456789/123456789 https://discord.com/api/webhooks/987654321/987654321\" (without backslash)"
     }
   },
+    "antiReact": {
+    "enable": true,
+    "reactByUnsend": {
+      "enable": true,
+      "emojis": [
+        "👍"
+      ]
+    },
+    "reactByRemove": {
+      "enable": true,
+      "emoji": "⚠"
+    },
+    "onlyAdminBot": true,
+    "notes": "If enabled, bot will unsend BOT MESSAGES when admins react with unsend emojis, and remove users when admins react with remove emoji. Only works for bot admins."
+  },
   "hideNotiMessage": {
     "commandNotFound": false,
     "adminOnly": false,
